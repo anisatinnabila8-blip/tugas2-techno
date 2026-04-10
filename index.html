@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="id" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rujak Mentri – Surganya Pecinta Rujak & Jajanan Pedas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#beranda" class="nav-brand">
+        <div class="brand-icon">
+          <img src="logo new.jpeg" alt="Rujak Mentri" width="40" height="40" style="border-radius:50%; object-fit:cover; display:block;">
+        </div>
+        <span class="brand-name">Rujak<span class="brand-dot">Mentri</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#beranda" class="nav-link">Beranda</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#pesan" class="nav-link">Pesan</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#lokasi" class="nav-link">Lokasi</a>
+        <a href="https://wa.me/6287886039413" target="_blank" class="btn-nav">Pesan Sekarang</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="beranda" class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+    <div class="hero-inner">
+      <div class="hero-text reveal">
+        <div class="hero-badge">🌶️ Jajanan Legendaris Khas Madura</div>
+        <h1 class="hero-title">Rujak &amp;<br><em>Jajanan</em><br>Pedas<br>Kelas Mentri!</h1>
+        <p class="hero-sub">
+        Rujak segar, tempura kocek, dan pentol ghepek khas dengan sambal petis pedas gurih yang bikin nagih!
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/6287886039413" target="_blank" class="btn-primary">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat WhatsApp
+          </a>
+          <a href="#menu" class="btn-ghost">Lihat Menu ↓</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">1000+</span>
+            <span class="stat-label">Pelanggan Puas</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">⭐ 4.9</span>
+            <span class="stat-label">Rating</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">8</span>
+            <span class="stat-label">Menu Pilihan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-2">
+        <div class="hero-img-frame">
+          <img src="pentolghepek.png" alt="Rujak Mentri" class="hero-product-img"/>
+          <div class="float-badge float-badge-1">🌶️</div>
+          <div class="float-badge float-badge-2">🔥</div>
+          <div class="float-badge float-badge-3">😋</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#keunggulan" class="scroll-indicator">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- KEUNGGULAN -->
+  <section id="keunggulan" class="section-keunggulan">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Mengapa Pilih Kami?</span>
+        <h2 class="section-title">Keunggulan <em>Rujak Mentri</em></h2>
+        <p class="section-sub">Sekali Coba, Dijamin Ketagihan.</p>
+      </div>
+      <div class="keunggulan-grid">
+        <div class="keunggulan-card reveal delay-1">
+          <div class="k-icon">🥭</div>
+          <h3>Buah Segar Pilihan</h3>
+          <p>Buah dipilih setiap hari agar selalu segar dan manis di setiap suapan.</p>
+        </div>
+        <div class="keunggulan-card reveal delay-2">
+          <div class="k-icon">🦐</div>
+          <h3>Sambal Petis Khas</h3>
+          <p>Sambal petis racikan sendiri — gurih, pedas, dan kaya rasa yang tidak ada duanya.</p>
+        </div>
+        <div class="keunggulan-card reveal delay-3">
+          <div class="k-icon">😋</div>
+          <h3>Beragam Pilihan</h3>
+          <p>Dari rujak hingga gorengan kocek, semua tersedia dalam satu tempat.</p>
+        </div>
+        <div class="keunggulan-card reveal delay-4">
+          <div class="k-icon">💰</div>
+          <h3>Harga Terjangkau</h3>
+          <p>Nikmat maksimal mulai dari Rp 5.000 saja, cocok untuk semua kalangan.</p>
+        </div>
+        <div class="keunggulan-card reveal delay-5">
+          <div class="k-icon">👨‍👩‍👧‍👦</div>
+          <h3>Semua Kalangan</h3>
+          <p>Cocok dinikmati dari anak-anak sampai orang dewasa, pedas bisa disesuaikan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section-menu">
+    <div class="menu-bg-pattern"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag light">Menu Andalan</span>
+        <h2 class="section-title light">Pilih <em>Favoritmu</em></h2>
+        <p class="section-sub light">sebelas  menu lezat dengan sambal petis khas Rujak Mentri.</p>
+      </div>
+      <div class="menu-grid-full">
+
+        <div class="menu-card reveal delay-1">
+  <div class="menu-img-wrap">
+    <img src="Pentol Ghepek basah.jpg" alt="Pentol Ghepek Basah" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🍢</div>'">
+    <div class="menu-badge bestseller">Best Seller 🔥</div>
+  </div>
+  <div class="menu-info">
+    <h3>Pentol Ghepek Basah</h3>
+    <p>Pentol kenyal disajikan dengan sambal petis basah yang pedas gurih dan meresap sempurna.</p>
+    <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+    <div class="menu-tags">
+      <span class="tag red">🌶️ Pedas</span>
+      <span class="tag orange"></span>
+    </div>
+  </div>
+</div>
+
+<div class="menu-card reveal delay-2">
+  <div class="menu-img-wrap">
+    <img src="PENTOL GHEPEK KERING.jpg" alt="Pentol Ghepek Kering" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🍡</div>'">
+  </div>
+  <div class="menu-info">
+    <h3>Pentol Ghepek Kering</h3>
+    <p>Pentol dengan sambal petis kering, rasa lebih pekat dan pedas mantap.</p>
+    <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+    <div class="menu-tags">
+      <span class="tag red">🌶️ Pedas</span>
+      <span class="tag"></span>
+    </div>
+  </div>
+</div>
+
+<div class="menu-card reveal delay-3">
+  <div class="menu-img-wrap">
+    <img src="pentol gepek original.jpg" alt="Pentol Ghepek Original" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🥢</div>'">
+  </div>
+  <div class="menu-info">
+    <h3>Pentol Ghepek Original</h3>
+    <p>Pentol original dengan sambal petis khas, sederhana tapi bikin ketagihan.</p>
+    <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+    <div class="menu-tags">
+      <span class="tag"> Original</span>
+      <span class="tag orange"> pedas </span>
+    </div>
+  </div>
+</div>
+
+        <!-- 1 -->
+        <div class="menu-card reveal delay-1">
+          <div class="menu-img-wrap">
+            <img src="rujak buah.jpg" alt="Rujak Buah" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🥭</div>'">
+            <div class="menu-badge bestseller">Best Seller</div>
+          </div>
+          <div class="menu-info">
+            <h3>Rujak Buah</h3>
+            <p>Perpaduan buah segar pilihan dengan sambal petis khas yang gurih dan pedas menggugah selera.</p>
+            <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag red">🌶️ Pedas</span>
+              <span class="tag orange"> Sambal Petis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="menu-card reveal delay-2">
+          <div class="menu-img-wrap">
+            <img src="rujak serut.jpg" alt="Rujak serut" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🥗</div>'">
+            <div class="menu-badge">Favorit</div>
+          </div>
+          <div class="menu-info">
+            <h3>Rujak serut</h3>
+            <p>Rujak khas dengan cara penyajian dicorek, dipadukan sambal petis yang kaya rasa.</p>
+            <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag red">🌶️ Pedas</span>
+              <span class="tag orange"> Sambal Petis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="menu-card reveal delay-3">
+          <div class="menu-img-wrap">
+            <img src="tahu walik.jpg" alt="Tahu Walik" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🟡</div>'">
+            <div class="menu-badge">Populer</div>
+          </div>
+          <div class="menu-info">
+            <h3>Tahu Walik</h3>
+            <p>Tahu dibalik dan digoreng garing, renyah di luar lembut di dalam. Wajib cocol sambal petis!</p>
+            <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag">🟡 Crispy</span>
+              <span class="tag orange"> Sambal Petis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="menu-card reveal delay-1">
+          <div class="menu-img-wrap">
+            <img src="rujak siwil.jpeg" alt="Rujak Siwil" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🍡</div>'">
+          </div>
+          <div class="menu-info">
+            <h3>Rujak Siwil</h3>
+            <p>Rujak unik dengan irisan khas siwil, tekstur berbeda yang bikin penasaran.</p>
+            <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag red">🌶️ Pedas</span>
+              <span class="tag orange"> Sambal Petis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="menu-card reveal delay-2">
+          <div class="menu-img-wrap">
+            <img src="bak dabak.jpg" alt="Bak-Dabak" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🍢</div>'">
+            <div class="menu-badge">Khas Kami</div>
+          </div>
+          <div class="menu-info">
+            <h3>Bak-Dabak</h3>
+            <p>Menu khas Rujak Mentri yang kenyal dan gurih, sempurna dengan sambal petis.</p>
+            <div class="menu-price">Rp 15.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag"> Kenyal</span>
+              <span class="tag orange"> Sambal Petis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="menu-card reveal delay-3">
+          <div class="menu-img-wrap">
+            <img src="sambel petis.jpg" alt="Sambal Petis" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🦐</div>'">
+          </div>
+          <div class="menu-info">
+            <h3>Sambal Petis</h3>
+            <p>Sambal petis racikan istimewa, cocok sebagai pelengkap semua menu atau dimakan sendiri.</p>
+            <div class="menu-price">Rp 5.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag red">🌶️ Pedas Gurih</span>
+              <span class="tag gray"> Petis Asli</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="menu-card reveal delay-1">
+          <div class="menu-img-wrap">
+            <img src="tahu kocek.jpg" alt="Tahu Kocek" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🟨</div>'">
+          </div>
+          <div class="menu-info">
+            <h3>Tahu Kocek</h3>
+            <p>Tahu lembut dikocek dengan bumbu rahasia, menghasilkan tekstur unik yang bikin ketagihan.</p>
+            <div class="menu-price">Rp 10.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag">🟡 Lembut</span>
+              <span class="tag orange"> gurih</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="menu-card reveal delay-2">
+          <div class="menu-img-wrap">
+            <img src="tempura kocek.jpg" alt="Tempura Kocek" onerror="this.parentElement.innerHTML='<div class=menu-img-placeholder>🍤</div>'">
+          </div>
+          <div class="menu-info">
+            <h3>Tempura Kocek</h3>
+            <p>Tempura renyah dikocek dengan saus khas, perpaduan sempurna antara crispy dan gurih.</p>
+            <div class="menu-price">Rp 10.000 <span class="menu-price-per">/ porsi</span></div>
+            <div class="menu-tags">
+              <span class="tag">🍤 Crispy</span>
+              <span class="tag orange">🌶️ pedasnya nendang</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CARA PESAN -->
+  <section id="pesan" class="section-pesan">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">📱 Pesan Sekarang</span>
+        <h2 class="section-title">Cara <em>Pemesanan</em></h2>
+        <p class="section-sub">Tersedia di berbagai platform, mudah dan cepat!</p>
+      </div>
+      <div class="pesan-grid">
+        <a href="https://wa.me/6287886039413" target="_blank" class="pesan-card wa reveal delay-1">
+          <div class="pesan-icon">
+            <svg width="36" height="36" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>Chat langsung untuk pesan cepat</p>
+          <span class="pesan-num">087886039413</span>
+        </a>
+        <a href="https://gofood.link/a/T4S6uw1" target="_blank" class="pesan-card gofood reveal delay-2">
+          <div class="pesan-icon">🛵</div>
+          <h3>GoFood</h3>
+          <p>Pesan via aplikasi Gojek</p>
+          <span class="pesan-num">Klik untuk pesan</span>
+        </a>
+        <a href="https://r.grab.com/g/6-20260401_181549_54beb32d64cb45249a32a6a8ad38e175_MEXMPS-6-C74JREDBUBV3VJ" target="_blank" class="pesan-card grab reveal delay-3">
+          <div class="pesan-icon">🥡</div>
+          <h3>GrabFood</h3>
+          <p>Pesan via aplikasi Grab</p>
+          <span class="pesan-num">Klik untuk pesan</span>
+        </a>
+        <a href="#" class="pesan-card shopee reveal delay-4">
+          <div class="pesan-icon">🍜</div>
+          <h3>ShopeeFood</h3>
+          <p>Pesan via aplikasi Shopee</p>
+          <span class="pesan-num">Cari "Rujak Mentri"</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JAM OPERASIONAL -->
+  <section id="jam" class="section-jam">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">⏰ Jam Operasional</span>
+        <h2 class="section-title">Kapan Kami <em>Buka?</em></h2>
+        <p class="section-sub">Kami siap melayani kamu hampir setiap hari — 24 jam penuh!</p>
+      </div>
+      <div class="jam-layout">
+        <div class="schedule-card reveal">
+          <div class="schedule-header">
+            <span class="schedule-header-icon">📅</span>
+            <div class="schedule-header-text">
+              <h3>Jadwal Mingguan</h3>
+              <p>Hari ini otomatis ditandai</p>
+            </div>
+          </div>
+          <div class="schedule-body" id="scheduleBody"></div>
+        </div>
+        <div class="status-stack reveal delay-2">
+          <div class="status-live-card" id="statusCard">
+            <div class="status-indicator">
+              <span class="pulse-dot" id="pulseDot"></span>
+              <span class="status-label">Status Sekarang</span>
+            </div>
+            <div class="status-main" id="statusMain">SEDANG BUKA</div>
+            <div class="status-sub" id="statusSub">Senin – Sabtu · 24 Jam Penuh</div>
+          </div>
+          <div class="info-cards-row">
+            <div class="info-mini-card">
+              <span class="info-mini-icon">🕐</span>
+              <span class="info-mini-val">24 JAM</span>
+              <span class="info-mini-label">Senin – Sabtu</span>
+            </div>
+            <div class="info-mini-card">
+              <span class="info-mini-icon">📦</span>
+              <span class="info-mini-val">DELIVERY</span>
+              <span class="info-mini-label">GoFood & GrabFood</span>
+            </div>
+          </div>
+          <div class="holiday-note">
+            <span>ℹ️</span>
+            <p>Kami <strong>libur setiap hari Minggu</strong>. Untuk hari libur nasional, pantau terus media sosial kami agar tidak ketinggalan info!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="section-tentang">
+    <div class="container">
+      <div class="tentang-grid">
+
+        <div class="tentang-visual reveal">
+          <div class="tentang-card-big">
+            <div class="tentang-logo-wrap">
+              <img src="logo.jpeg" alt="Rujak Mentri" style="width:80px;height:80px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.3);margin:0 auto 1rem;display:block;" onerror="this.outerHTML='<div style=font-size:4rem;margin-bottom:1rem>🥭</div>'">
+            </div>
+            <h3 class="tentang-brand">Rujak Mentri</h3>
+            <p class="tentang-since">Since 2024 · Sidoarjo, Jawa Timur</p>
+            <div class="tentang-stats-row">
+              <div class="t-stat"><span>1000+</span><small>Porsi Terjual</small></div>
+              <div class="t-stat"><span>⭐ 4.9</span><small>Rating</small></div>
+              <div class="t-stat"><span>8</span><small>Menu Khas</small></div>
+            </div>
+            <!-- Menu highlight pills -->
+            <div class="tentang-menu-pills">
+              <span class="menu-pill">🥭 Rujak Buah</span>
+              <span class="menu-pill">🥗 Rujak Corek</span>
+              <span class="menu-pill">🟡 Tahu Walik</span>
+              <span class="menu-pill">🍡 Rujak Siwil</span>
+              <span class="menu-pill">🍢 Bak-Dabak</span>
+              <span class="menu-pill">🦐 Sambal Petis</span>
+              <span class="menu-pill">🟨 Tahu Kocek</span>
+              <span class="menu-pill">🍤 Tempura Kocek</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tentang-text reveal delay-2">
+          <span class="section-tag">Tentang Kami</span>
+          <h2 class="section-title">Cerita Di Balik <em>Kelezatan</em></h2>
+
+          <p><strong>Rujak Mentri</strong> adalah usaha kuliner yang menghadirkan berbagai jajanan khas dengan cita rasa autentik, terinspirasi dari kuliner <strong>Madura</strong> yang terkenal dengan sambal petisnya yang khas.</p>
+
+          <p>Kami menyediakan beragam menu seperti rujak buah, rujak corek, rujak siwil, tahu walik, bak-dabak, tahu kocek, tempura kocek, hingga <strong>pentol ghepek</strong> yang menjadi menu andalan kami. Semua disajikan dengan sambal petis racikan sendiri yang gurih, pedas, dan bikin ketagihan.</p>
+
+          <p>Dengan bahan pilihan dan rasa yang konsisten, Rujak Mentri hadir untuk memberikan pengalaman makan jajanan tradisional dengan sentuhan modern yang tetap mempertahankan cita rasa khas Indonesia.</p>
+          <div class="tentang-highlight-grid">
+            <div class="highlight-item">
+              <div class="highlight-icon">🥭</div>
+              <div>
+                <strong>Rujak Segar</strong>
+                <p>Buah pilihan dipotong setiap hari, selalu segar dan manis.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🦐</div>
+              <div>
+                <strong>Sambal Petis Khas</strong>
+                <p>Racikan sendiri, tidak dijual di tempat lain.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🍤</div>
+              <div>
+                <strong>Gorengan Kocek</strong>
+                <p>Tahu dan tempura kocek dengan tekstur unik yang bikin nagih.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">💰</div>
+              <div>
+                <strong>Harga Bersahabat</strong>
+                <p>Mulai Rp 5.000 saja, nikmat tidak harus mahal.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="nilai-grid">
+            <div class="nilai-item"><span>❤️</span><small>Dibuat dengan Cinta</small></div>
+            <div class="nilai-item"><span>🌟</span><small>Kualitas Terjaga</small></div>
+            <div class="nilai-item"><span>😊</span><small>Pelayanan Ramah</small></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOKASI -->
+  <section id="lokasi" class="section-lokasi">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">📍 Lokasi Kami</span>
+        <h2 class="section-title">Kunjungi <em>Kami</em></h2>
+        <p class="section-sub">Datang langsung untuk menikmati rujak dan jajanan segar dari dapur kami!</p>
+      </div>
+      <div class="lokasi-grid">
+        <div class="map-wrap reveal delay-1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1234567890!2d112.7654321!3d-7.3987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMjMnNTUuNiJTIDExMsKwNDUnNTUuNiJF!5e0!3m2!1sid!2sid!4v1234567890"
+            width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy">
+          </iframe>
+        </div>
+        <div class="lokasi-info reveal delay-2">
+          <div class="info-item">
+            <div class="info-icon red">📍</div>
+            <div>
+              <h4>Alamat Lengkap</h4>
+              <p>Jl. Griya Palem Putri 1 No.5<br>Jalan Raya Ronggojalu<br>Masanganwetan, Sukodono<br>Sidoarjo, Jawa Timur</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon green">📱</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>087886039413</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon purple">📸</div>
+            <div>
+              <h4>Social Media</h4>
+              <div class="sosmed-links">
+                <a href="https://www.tiktok.com/@rujak_mentri?_r=1&_d=ef04g97m01i6el&sec_uid=MS4wLjABAAAAZXufcZVhz_KpR9Bd_-TlzZU37dUquKgLHs0Thhx7eeO3AD4yIHOpIC2jZwYAjQbl&share_author_id=6926374016534103042&sharer_language=id&source=h5_t&u_code=dh19f08l30l228&timestamp=1774932915" target="_blank">🎵 TikTok</a>
+                <a href="https://www.instagram.com/pentolghepek.kita/?utm_source=qr&r=nametag" target="_blank">📷 Instagram</a>
+              </div>
+            </div>
+          </div>
+          <a href="https://maps.google.com/?q=Jl.+Griya+Palem+Putri+1+No.5+Masanganwetan+Sukodono+Sidoarjo" target="_blank" class="btn-primary btn-full">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            Buka di Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="brand-icon">
+              <img src="logo.jpeg" alt="Rujak Mentri" width="40" height="40" style="border-radius:50%;object-fit:cover;display:block;" onerror="this.outerHTML='🥭'">
+            </div>
+            <span class="brand-name">Rujak<span class="brand-dot">Mentri</span></span>
+          </div>
+          <p>Rujak segar, gorengan kocek, dan sambal petis khas dalam satu tempat. Nikmat kelas mentri, harga merakyat!</p>
+          <div class="footer-socials">
+            <a href="https://www.tiktok.com/@rujak_mentri" target="_blank">🎵</a>
+            <a href="https://www.instagram.com/pentolghepek.kita/" target="_blank">📷</a>
+            <a href="https://wa.me/6287886039413" target="_blank">💬</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Menu Cepat</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#pesan">Pesan</a></li>
+            <li><a href="#jam">Jam Buka</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Pesan Via</h4>
+          <ul>
+            <li><a href="https://wa.me/6287886039413" target="_blank">💬 WhatsApp</a></li>
+            <li><a href="https://gofood.link/a/T4S6uw1" target="_blank">🛵 GoFood</a></li>
+            <li><a href="#">🥡 GrabFood</a></li>
+            <li><a href="#">🍜 ShopeeFood</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Rujak Mentri. All rights reserved.</p>
+        <p>Sidoarjo, Jawa Timur 🇮🇩</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WA Button -->
+  <a href="https://wa.me/6287886039413" target="_blank" class="wa-float" aria-label="Chat WhatsApp">
+    <svg width="28" height="28" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <style>
+    /* ── Hero Visual ── */
+    .hero-visual { display:flex; align-items:center; justify-content:center; position:relative; min-height:400px; }
+    .hero-img-frame { position:relative; width:360px; height:360px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+    .hero-img-frame::before {
+      content:''; position:absolute; inset:0; border-radius:50%;
+      background: radial-gradient(circle at 35% 35%, rgba(255,120,0,0.22), rgba(220,30,0,0.10) 60%, transparent 80%);
+      box-shadow: 0 0 0 2px rgba(255,120,0,0.18), 0 0 50px rgba(255,80,0,0.20); z-index:0;
+    }
+    .hero-img-frame::after {
+      content:''; position:absolute; inset:10px; border-radius:50%;
+      border:2px dashed rgba(255,120,0,0.25);
+      animation: spin-slow 18s linear infinite; z-index:0;
+    }
+    @keyframes spin-slow { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+    .hero-product-img {
+      position:relative; z-index:1; width:280px; height:280px;
+      object-fit:cover; object-position:center; border-radius:50%;
+      border:5px solid rgba(255,255,255,0.15);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.08), 0 12px 30px rgba(0,0,0,0.30), 0 0 0 8px rgba(255,100,0,0.12);
+      display:block;
+    }
+    .float-badge-1 { top:10px; right:5px; z-index:2; }
+    .float-badge-2 { bottom:25px; right:0px; z-index:2; }
+    .float-badge-3 { top:50px; left:0px; z-index:2; }
+
+    /* ── Menu Grid 4 kolom ── */
+    .menu-grid-full {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      position: relative;
+      z-index: 1;
+    }
+    @media (max-width: 1100px) { .menu-grid-full { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px)  { .menu-grid-full { grid-template-columns: 1fr; max-width:420px; margin:0 auto; } }
+
+    /* ── Menu Price ── */
+    .menu-price { font-size:1.1rem; font-weight:700; color:#e63b0f; margin:10px 0 6px; }
+    .menu-price-per { font-size:0.82rem; font-weight:400; color:#aaa; }
+
+    /* ── Tentang Highlight ── */
+    .tentang-highlight-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+    @media (max-width: 480px) { .tentang-highlight-grid { grid-template-columns: 1fr; } }
+
+    .highlight-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      background: var(--cream);
+      border: 1px solid rgba(74,10,10,0.07);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+    }
+    .highlight-icon { font-size: 1.75rem; flex-shrink: 0; }
+    .highlight-item strong { display:block; font-size:0.9rem; color:var(--red-800); margin-bottom:0.25rem; }
+    .highlight-item p { font-size:0.82rem; color:var(--text-soft); line-height:1.45; margin:0; }
+
+    /* ── Tentang Menu Pills ── */
+    .tentang-menu-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+      position: relative;
+    }
+    .menu-pill {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: rgba(255,255,255,0.9);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.3rem 0.85rem;
+      border-radius: 999px;
+      backdrop-filter: blur(4px);
+    }
+
+    /* ══════════════════════════════════════
+       JAM OPERASIONAL
+    ══════════════════════════════════════ */
+    .section-jam { padding:6rem 0; background:var(--cream-2); position:relative; }
+    .section-jam::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:linear-gradient(90deg, var(--red-900), var(--red-600), var(--ember), var(--red-600), var(--red-900)); }
+    .jam-layout { display:grid; grid-template-columns:1fr 1fr; gap:2rem; align-items:start; }
+    @media (max-width:768px) { .jam-layout { grid-template-columns:1fr; } }
+
+    .schedule-card { background:var(--white); border-radius:var(--radius-xl); overflow:hidden; box-shadow:var(--shadow-md); border:1px solid rgba(74,10,10,0.06); }
+    .schedule-header { background:linear-gradient(135deg, var(--red-900), var(--red-700)); padding:1.5rem 2rem; display:flex; align-items:center; gap:0.75rem; }
+    .schedule-header-icon { font-size:1.6rem; }
+    .schedule-header-text h3 { font-family:var(--font-display); font-size:1.4rem; letter-spacing:0.06em; color:var(--white); line-height:1; }
+    .schedule-header-text p { font-size:0.8rem; color:rgba(255,255,255,0.65); margin-top:0.2rem; }
+    .schedule-body { padding:0.5rem 0; }
+
+    .day-row { display:flex; align-items:center; justify-content:space-between; padding:0.85rem 2rem; border-bottom:1px solid rgba(74,10,10,0.05); transition:background 0.2s; position:relative; }
+    .day-row:last-child { border-bottom:none; }
+    .day-row:hover { background:rgba(74,10,10,0.02); }
+    .day-row.today { background:rgba(192,40,30,0.05); }
+    .day-row.today::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(to bottom, var(--red-600), var(--ember)); border-radius:0 2px 2px 0; }
+    .day-row.closed { opacity:0.5; }
+    .day-info { display:flex; align-items:center; gap:0.75rem; }
+    .day-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+    .dot-open { background:#22c55e; box-shadow:0 0 0 3px rgba(34,197,94,0.15); }
+    .dot-closed { background:#94a3b8; }
+    .day-name { font-size:0.92rem; font-weight:600; color:var(--text-dark); }
+    .today-badge { font-size:0.65rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; background:linear-gradient(135deg, var(--red-600), var(--ember)); color:var(--white); padding:0.2rem 0.55rem; border-radius:999px; margin-left:0.4rem; }
+    .day-hours { font-size:0.88rem; font-weight:600; color:var(--red-700); }
+    .day-hours.closed-text { color:#94a3b8; font-weight:500; }
+    .hours-pill { background:rgba(192,40,30,0.08); color:var(--red-700); font-size:0.78rem; font-weight:700; padding:0.2rem 0.65rem; border-radius:999px; }
+
+    .status-stack { display:flex; flex-direction:column; gap:1.25rem; }
+    .status-live-card { background:linear-gradient(135deg, var(--red-800), var(--ember)); border-radius:var(--radius-xl); padding:2rem; color:var(--white); text-align:center; box-shadow:0 12px 40px rgba(192,40,30,0.3); position:relative; overflow:hidden; }
+    .status-live-card::before { content:''; position:absolute; inset:0; background:radial-gradient(circle at 80% 20%, rgba(232,130,12,0.25), transparent 60%); }
+    .status-indicator { position:relative; z-index:1; display:flex; align-items:center; justify-content:center; gap:0.6rem; margin-bottom:0.75rem; }
+    .pulse-dot { width:10px; height:10px; border-radius:50%; background:#4ade80; animation:pulse-live 1.8s ease-in-out infinite; }
+    .pulse-dot.closed-dot { background:#94a3b8; animation:none; box-shadow:none; }
+    @keyframes pulse-live { 0%{box-shadow:0 0 0 0 rgba(74,222,128,0.7)} 70%{box-shadow:0 0 0 10px rgba(74,222,128,0)} 100%{box-shadow:0 0 0 0 rgba(74,222,128,0)} }
+    .status-label { font-size:0.82rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; opacity:0.85; }
+    .status-main { position:relative; z-index:1; font-family:var(--font-display); font-size:2rem; letter-spacing:0.04em; line-height:1.1; margin-bottom:0.25rem; }
+    .status-sub { position:relative; z-index:1; font-size:0.85rem; opacity:0.75; }
+
+    .info-cards-row { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+    .info-mini-card { background:var(--white); border-radius:var(--radius-md); padding:1.25rem 1rem; text-align:center; box-shadow:var(--shadow-sm); border:1px solid rgba(74,10,10,0.06); }
+    .info-mini-icon { font-size:1.6rem; margin-bottom:0.5rem; display:block; }
+    .info-mini-val { font-family:var(--font-display); font-size:1.1rem; letter-spacing:0.05em; color:var(--red-800); display:block; line-height:1.2; }
+    .info-mini-label { font-size:0.75rem; color:var(--text-soft); margin-top:0.2rem; display:block; }
+
+    .holiday-note { background:rgba(232,130,12,0.08); border:1px solid rgba(232,130,12,0.2); border-radius:var(--radius-md); padding:1rem 1.25rem; display:flex; align-items:flex-start; gap:0.75rem; }
+    .holiday-note span:first-child { font-size:1.25rem; flex-shrink:0; margin-top:0.1rem; }
+    .holiday-note p { font-size:0.84rem; color:var(--text-soft); line-height:1.55; }
+    .holiday-note strong { color:var(--amber); }
+  </style>
+
+  <script src="script.js"></script>
+  <script>
+    (function() {
+      const days = [
+        { name:'Senin',  open:true  },
+        { name:'Selasa', open:true  },
+        { name:'Rabu',   open:true  },
+        { name:'Kamis',  open:true  },
+        { name:'Jumat',  open:true  },
+        { name:'Sabtu',  open:true  },
+        { name:'Minggu', open:false },
+      ];
+      const jsDay = new Date().getDay();
+      const todayIdx = jsDay === 0 ? 6 : jsDay - 1;
+      const isSunday = todayIdx === 6;
+
+      const body = document.getElementById('scheduleBody');
+      days.forEach(function(d, i) {
+        const isToday = i === todayIdx;
+        const row = document.createElement('div');
+        row.className = 'day-row' + (isToday ? ' today' : '') + (!d.open ? ' closed' : '');
+        row.innerHTML =
+          '<div class="day-info">' +
+            '<span class="day-dot ' + (d.open ? 'dot-open' : 'dot-closed') + '"></span>' +
+            '<span class="day-name">' + d.name + (isToday ? '<span class="today-badge">Hari ini</span>' : '') + '</span>' +
+          '</div>' +
+          '<div class="day-hours' + (!d.open ? ' closed-text' : '') + '">' +
+            (d.open ? '<span class="hours-pill">24 Jam</span>' : '🚫 Tutup') +
+          '</div>';
+        body.appendChild(row);
+      });
+
+      const statusMain = document.getElementById('statusMain');
+      const statusSub  = document.getElementById('statusSub');
+      const pulseDot   = document.getElementById('pulseDot');
+      const statusCard = document.getElementById('statusCard');
+      if (isSunday) {
+        pulseDot.classList.add('closed-dot');
+        statusMain.textContent = 'SEDANG TUTUP';
+        statusSub.textContent  = 'Hari Minggu · Hari Libur Kami';
+        statusCard.style.background = 'linear-gradient(135deg, #3b3b3b, #5a5a5a)';
+        statusCard.style.boxShadow  = '0 12px 40px rgba(0,0,0,0.15)';
+      } else {
+        statusMain.textContent = 'SEDANG BUKA';
+        statusSub.textContent  = days[todayIdx].name + ' · Buka 24 Jam Penuh';
+      }
+    })();
+  </script>
+
+</body>
+</html>
